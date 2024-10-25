@@ -17,7 +17,7 @@
         figure.m-0.text-end(data-aos="zoom-in")
           img(src="@/assets/curso/tema2/17.png", alt="", style="max-width: 100%").img-fluid
 
-    .titulo-tres.mb-4(data-aos="flip-up").mb-5
+    .titulo-tres.mb-4(data-aos="flip-up").mb-4.mb-lg-5
       h4 La relación entre arte e industria
 
     p.mb-4(data-aos="fade-right") La relación entre el arte y la industria es muy estrecha, ya que los contenidos editoriales deben adaptarse a los nuevos medios y formatos. Si bien los personajes icónicos continúan dominando el cine y la televisión, cada vez surgen más historias y creadores emergentes. Al mismo tiempo, las editoriales independientes han sabido adaptarse a las tecnologías de la información, reduciendo los costos de producción y ampliando su impacto a nivel global. 
@@ -38,7 +38,7 @@
           .p-4
             p.mb-0(data-aos="fade-right").mt-lg-4 A nivel mundial, las ventas de historietas han aumentado en los últimos años, impulsadas por la aparición de nuevas plataformas tecnológicas y modelos de negocio innovadores, como las suscripciones en línea o la venta de contenido digital. 
 
-    .titulo-tres.mb-4(data-aos="flip-up").mb-5
+    .titulo-tres.mb-4(data-aos="flip-up").mb-4.mb-lg-5
       h4 Público objetivo 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -54,7 +54,7 @@
                 p.mb-0(data-aos="fade-right") Estos cambios han permitido que el público objetivo de las historietas sea cada vez más diverso, abarcando personas de diferentes edades, estilos e intereses, dependiendo del género de la obra.
       .col-lg-4
         figure(data-aos="zoom-in")
-          img(src="@/assets/curso/tema2/21.png", alt="", style="max-width: 100%").img-fluid
+          img(src="@/assets/curso/tema2/21.png", alt="", style="max-width: 100%").img-fluid.mt-4.mt-lg-0
 
     p.mb-4(data-aos="fade-right") Para incursionar en esta industria, es recomendable que al crear una historieta se defina claramente el público al que va dirigida. Esto ayudará a determinar el estilo gráfico, el género, el formato (físico o digital), así como otras condiciones clave para su comercialización o distribución. 
 

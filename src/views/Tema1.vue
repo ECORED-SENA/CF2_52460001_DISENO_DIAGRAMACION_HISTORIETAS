@@ -28,7 +28,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-auto.order-last.order-lg-first
             figure(data-aos="zoom-in")
-              img(src="@/assets/curso/tema1/6.png", alt="", style="max-width: 295px;").mx-auto.mb-4.mb-lg-0
+              img(src="@/assets/curso/tema1/6.png", alt="", style="max-width: 295px;").mx-auto.my-4.my-lg-0
           .col-lg
             p.mb-0(data-aos="fade-right") El lenguaje audiovisual en los cómics es mucho más que una simple ilustración; es una herramienta narrativa que combina múltiples elementos visuales para crear una experiencia inmersiva y emocional en el lector. Desde la selección de planos y ángulos hasta el uso de efectos gráficos y colores, cada decisión artística está orientada a construir una narrativa coherente y atractiva que guíe al lector a través de la historia. 
 
@@ -37,21 +37,21 @@
 
     .bg-full-width.bg-fondo-3
       .px-4.px-md-5
-        .row.justify-content-center.align-items-center.mb-5
+        .row.justify-content-center.align-items-center.mb-2.mb-md-4
           .col-lg-8
-            .bg-color-3.p-4.mb-4
+            .bg-color-3.p-4.mb-1.mb-md-4
               p.mb-0(data-aos="fade-right") El lenguaje audiovisual es un sistema de signos visuales y sonoros que se utiliza para transmitir un mensaje al usuario. En el diseño y la diagramación de historietas impresas, es necesario trabajar únicamente con los elementos visuales: texto (tipografía) e imágenes (esquemas, dibujos, fotografías), los cuales se organizan de manera secuencial y coherente, basándose en la elección de planos y ángulos. El movimiento, por su parte, se representa gráficamente mediante poses, líneas y efectos visuales, entre otros recursos.  
 
             .row.justify-content-center.align-items-center.mb-5
               .col-lg-auto
                 figure(data-aos="zoom-in")
-                  img(src="@/assets/curso/tema1/7.png", alt="", style="max-width: 295px").img-fluid
+                  img(src="@/assets/curso/tema1/7.png", alt="", style="max-width: 100%").img-fluid
               .col-lg
                 p.mb-0(data-aos="fade-right").mb-4 #[strong En las historietas], una toma es el espacio donde el ilustrador despliega los movimientos y acciones de los personajes. La correcta selección de plano, ángulo y movimiento permite representar de forma clara el desarrollo de la historia. Por ello, es fundamental elegir estos elementos en función de la intención comunicativa y los aspectos narrativos de la historieta.  
 
                 .bg-color-4.p-4
                   p.mb-0(data-aos="fade-right") En el cómic, los planos permiten enfocar diferentes aspectos de la historia. Desde el gran plano general, que abarca escenarios completos, hasta el primer plano, que destaca las emociones del personaje, cada uno aporta una perspectiva única y guía la narrativa visual.  
-          .col-lg-4 
+          .col-lg-4.d-none.d-lg-block
             figure(data-aos="zoom-in")
               img(src="@/assets/curso/tema1/8.png", alt="", style="max-width: 400px").img-fluid
 
@@ -59,7 +59,7 @@
     .bg-full-width.bg-fondo-3
       .px-4.px-md-5
 
-        .row.justify-content-center.align-items-start.mb-5
+        .row.justify-content-center.align-items-start.mb-0.mb-md-5
           .col-lg-6
 
             .titulo-sexto.color-acento-contenido.mb-4(data-aos="flip-up")
@@ -67,10 +67,10 @@
               span Planos 
 
             figure(data-aos="zoom-in")
-              img(src="@/assets/curso/figuras/figura1.png", alt="", style="max-width: 610px").img-fluid
+              img(src="@/assets/curso/figuras/figura1.png", alt="", style="max-width: 610px").img-fluid.mb-5.mb-md-0
 
           .col-lg-6
-            AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta-azul")
+            AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta-azul")
               div(titulo="Gran plano general")
                 p.mb-0(data-aos="fade-right") Usado para representar grandes escenarios y figuras humanas de cuerpo entero. 
               div(titulo="Plano general")
