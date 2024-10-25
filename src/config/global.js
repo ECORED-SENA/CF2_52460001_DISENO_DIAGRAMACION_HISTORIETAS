@@ -146,7 +146,7 @@ export default {
       referencia:
         'Dani Parker. (2021). CÓMO CONTAR UNA HISTORIA EN CÓMIC - DANI PARKER. [Archivo de vídeo]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=0VeEI0DqVPo',
+      link: 'https://www.youtube.com/watch?v=0VeEI0DqVPo52',
     },
     {
       tema: 'Personajes',
