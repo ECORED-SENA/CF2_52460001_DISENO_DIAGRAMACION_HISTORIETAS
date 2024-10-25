@@ -1,17 +1,26 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Maquetación',
+    descripcionCurso:
+      'El documento aborda la maquetación de historietas gráficas, destacando el lenguaje audiovisual (tomas, planos, ángulos), la estructura narrativa (inicio, nudo, desenlace) y la identificación del público objetivo. También analiza el mercado de las historietas, su evolución en Colombia, y la relación entre arte e industria. Incluye referencias bibliográficas y control del documento.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.png'),
       },
     ],
   },
@@ -31,13 +40,28 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Lenguaje audiovisual en los cómics',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Escena',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Secuencia',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Estructura narrativa',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Personajes',
+            hash: 't_1_4',
           },
         ],
       },
@@ -45,13 +69,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Análisis del mercado',
         desarrolloContenidos: true,
       },
     ],
