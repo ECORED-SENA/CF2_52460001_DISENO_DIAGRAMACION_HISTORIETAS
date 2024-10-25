@@ -92,6 +92,16 @@
     background-color: #FFF5E6
   &-4
     background-color: #FBE4F1
+  &-5
+    background-color: #FFEBCF                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+  &-6
+    background-color: #F6BCDD
+  &-7
+    background-color: #F6BCDD
+  &-8
+    background-color: #ECF9FE
+  &-sintesis
+    background-color: #F6F6F6
 
 .bg-fondo
   &-1
@@ -161,3 +171,28 @@
 @media screen and (max-width: $bp-max-sm)
   .slyder-a__bullets__item
     margin: 0 3px
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: #FFF0B9
+      cursor: pointer
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.4rem 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #FFA117
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em

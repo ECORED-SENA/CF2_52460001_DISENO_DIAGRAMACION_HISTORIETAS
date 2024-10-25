@@ -118,7 +118,7 @@
 
     p.mb-4(data-aos="fade-right") Las historias poseen una trama que se fundamenta en tres momentos establecidos: 
 
-    .bg-full-width.bg-fondo-slide.mb-5
+    .bg-full-width.bg-fondo-slide
       .p-4.p-md-5
         .tarjeta.bg-white.p-4.p-lg-5.pb-lg-4.shadow-soft(data-aos="fade-down")
           SlyderA(tipo='b')
@@ -148,11 +148,40 @@
 
 
     .bg-full-width.bg-fondo-3.mb-5
-      .p-4.p-md-5
+      .px-4.px-md-5
         .titulo-segundo.color-acento-contenido.mb-4(data-aos="flip-up")
           h2 1.4 Personajes
 
         p.mb-4(data-aos="fade-right") Los personajes son los seres, personas o entidades que participan en una historia, ya sea en roles principales, secundarios o incidentales. A través de sus acciones, diálogos y relaciones, dan vida a la trama y permiten el desarrollo de los acontecimientos dentro de la narrativa. 
+
+
+        .row.justify-content-center.mb-5
+          .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+            .crd_hover_txt(data-aos="flip-left").brounded
+              .crd_hover_txt--img
+                figure
+                  img(src="@/assets/curso/tema1/14.png", alt="alt")
+              .crd_hover_txt--body
+                h4.mb-3.text-center Principal
+                p.mb-0 Es el personaje que guía el hilo dramático de la historia. Puede ser el protagonista, quien actúa para alcanzar ciertos objetivos, o el antagonista (o villano), que se opone y obstaculiza las acciones del protagonista.
+
+          .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+            .crd_hover_txt(data-aos="flip-left").brounded
+              .crd_hover_txt--img
+                figure
+                  img(src="@/assets/curso/tema1/15.png", alt="alt")
+              .crd_hover_txt--body
+                h4.mb-3.text-center Secundario
+                p.mb-0 Aunque no juega un papel central en el desarrollo de los acontecimientos, apoya la trama y contribuye a su avance.        
+
+          .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+            .crd_hover_txt(data-aos="flip-left").brounded
+              .crd_hover_txt--img
+                figure
+                  img(src="@/assets/curso/tema1/16.png", alt="alt")
+              .crd_hover_txt--body
+                h4.mb-3.text-center Incidentar
+                p.mb-0 Son personajes que aparecen en la historia con un propósito específico y, generalmente, tienen una participación limitada.
 </template>
 
 <script>

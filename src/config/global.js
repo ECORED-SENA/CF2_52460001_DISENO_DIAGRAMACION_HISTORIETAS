@@ -120,31 +120,124 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Lenguaje audiovisual en los cómics',
+      referencia:
+        'InfoLibros. (2022). ¿Qué es un Comic?: Definición, Características y Curiosidades | Descubre el Mundo de la Literatura. [Archivo de vídeo]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=nmNG-5K8RMs',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Escena',
+      referencia:
+        'Rodríguez Mercado, R. (2017). Diseño del cuento-taller: la historieta como medio de difusión de investigaciones universitarias. (s.d.). Editorial Digital UNID.',
+      tipo: 'Capítulo 2',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/41167',
+    },
+    {
+      tema: 'Secuencia',
+      referencia:
+        'EchandoTrazos. (2022). Mejora las viñetas y el Storytelling en tu cómic o manga. [Archivo de vídeo]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=_tvN7ifRhg8',
+    },
+    {
+      tema: 'Estructura narrativa',
+      referencia:
+        'Dani Parker. (2021). CÓMO CONTAR UNA HISTORIA EN CÓMIC - DANI PARKER. [Archivo de vídeo]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=0VeEI0DqVPo',
+    },
+    {
+      tema: 'Personajes',
+      referencia:
+        'Acevedo, J. (2021). Para hacer historietas. (8 ed.). IEP Ediciones.',
+      tipo: 'Capítulo 2',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/195687',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Ángulo',
+      significado:
+        'perspectiva visual desde la cual se presenta una escena en el cómic, como el ángulo picado o contrapicado.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Antagonista',
+      significado:
+        'personaje que se opone al protagonista, generando conflictos dentro de la historia.',
+    },
+    {
+      termino: 'Guion',
+      significado:
+        'texto que contiene los diálogos, descripciones y acciones que se desarrollarán en una historieta o cómic.',
+    },
+    {
+      termino: 'Historieta',
+      significado:
+        'narrativa visual que combina texto e imágenes secuenciales para contar una historia, también conocida como cómic.',
+    },
+    {
+      termino: 'Narrativa gráfica',
+      significado:
+        'forma de contar una historia mediante la integración de imágenes y texto en una secuencia visual.',
+    },
+    {
+      termino: 'Onomatopeya',
+      significado:
+        'palabra que imita sonidos, comúnmente utilizada en cómics para representar ruidos, explosiones o efectos de sonido.',
+    },
+    {
+      termino: 'Plano',
+      significado:
+        'distancia o relación visual que el lector tiene con los personajes y el escenario, como el primer plano o plano general.',
+    },
+    {
+      termino: 'Protagonista',
+      significado:
+        'personaje principal que lleva el hilo narrativo de la historia, generalmente en busca de alcanzar sus objetivos.',
+    },
+    {
+      termino: 'Secuencia',
+      significado:
+        'sucesión de viñetas que forman una acción continua dentro de la trama de una historieta.',
+    },
+    {
+      termino: 'Viñeta',
+      significado:
+        'cada uno de los recuadros que componen una página de historieta, donde se representan acciones o diálogos.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'González Zaragoza, N. (Sin fecha). El cómic, orígenes y evolución.',
+      link: '',
+    },
+    {
+      referencia:
+        'Gubern, R. (1972). El lenguaje de los cómics. Barcelona, Península.',
+      link: '',
+    },
+    {
+      referencia:
+        'McCloud, S. (2005). Entender el cómic: El arte invisible. Bilbao, Astiberri.',
+      link: '',
+    },
+    {
+      referencia:
+        'McCloud, S. (2007). Hacer cómics: secretos narrativos del cómic, el manga y la novela gráfica. Bilbao, Astiberri.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Educación Nacional. (Sin fecha). Hábitos de lectura, asistencia a bibliotecas y consumo de libros en Colombia.',
+      link: '',
+    },
+    {
+      referencia:
+        'Oficina Comercial de ProChile en Bogotá. (2012). Estudio de mercado servicios editoriales en Colombia.',
       link: '',
     },
   ],
@@ -168,9 +261,10 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Hernán Mauricio Rodríguez',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de Diseño e Innovación Tecnológica Industrial - Regional Risaralda',
         },
       ],
     },
@@ -178,12 +272,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Carlos Julián Ramírez Benítez',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edgar Mauricio Cortés García',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
@@ -199,12 +293,7 @@ export default {
       autores: [
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
