@@ -12,7 +12,7 @@
     .row.justify-content-center.align-items-stretch.g-0.mb-5
       .col-lg-8.bg-color-5
         .px-5.py-4
-          p.mb-0(data-aos="fade-right") Además de los aspectos técnicos, la estructura narrativa juega un rol fundamental en la creación de una historieta exitosa. La correcta identificación del inicio, nudo y desenlace, así como el desarrollo de personajes bien definidos, permite construir relatos que conecten emocionalmente con el lector y lo mantengan interesado en el desarrollo de la historia. La selección del público objetivo es igualmente crucial, ya que define el estilo gráfico y el enfoque del contenido. 
+          p.mb-0(data-aos="fade-right") A pesar de que la industria del cómic en Colombia aún es incipiente, se están creando espacios de socialización e intercambio con nuevos aliados y plataformas, como los festivales que se celebran en diversas ciudades, congregando a aficionados y profesionales del mundo de la historieta.
       .col-lg-4.bg-color-2.d-flex.flex-column.justify-content-end
         figure.m-0.text-end(data-aos="zoom-in")
           img(src="@/assets/curso/tema2/17.png", alt="", style="max-width: 100%").img-fluid

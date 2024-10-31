@@ -67,9 +67,10 @@
               span Planos 
 
             figure(data-aos="zoom-in")
-              img(src="@/assets/curso/figuras/figura1.png", alt="", style="max-width: 610px").img-fluid.mb-5.mb-md-0
+              img(src="@/assets/curso/figuras/figura1.png", alt="La figura muestra un personaje de cómic con cuerpo de dinosaurio y cresta de gallo, dividido en varios tipos de planos: plano general (todo el cuerpo), plano americano (desde las rodillas), plano medio (hasta la cintura), primer plano (rostro y parte superior), y primerísimo primer plano (detalle del rostro, como los ojos).", style="max-width: 610px").img-fluid.mb-5.mb-md-0
 
           .col-lg-6
+            p.mb-4(data-aos="fade-right") Los planos son:
             AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta-azul")
               div(titulo="Gran plano general")
                 p.mb-0(data-aos="fade-right") Usado para representar grandes escenarios y figuras humanas de cuerpo entero. 
@@ -86,7 +87,7 @@
 
     Separador
 
-    .titulo-segundo.color-acento-contenido.mb-4(data-aos="flip-up")
+    .titulo-segundo.color-acento-contenido.mb-4(data-aos="flip-up")#t_1_1
       h2 1.1 Escena 
 
     .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5
@@ -100,7 +101,7 @@
 
     .bg-full-width.bg-fondo-2
       .px-4.px-md-5
-        .titulo-segundo.color-acento-contenido.mb-4(data-aos="flip-up")
+        .titulo-segundo.color-acento-contenido.mb-4(data-aos="flip-up")#t_1_2
           h2 1.2 Secuencia
 
         p.mb-4(data-aos="fade-right") Una secuencia es una serie de escenas o imágenes conectadas que forman una acción continua dentro de la narrativa. Esta sucesión de escenas permite desarrollar momentos clave de la trama, vinculando acciones y eventos que impulsan la historia hacia adelante, generando un flujo narrativo coherente. 
@@ -113,7 +114,7 @@
 
     Separador
 
-    .titulo-segundo.color-acento-contenido.mb-4(data-aos="flip-up")
+    .titulo-segundo.color-acento-contenido.mb-4(data-aos="flip-up")#t_1_3
       h2 1.3 Estructura narrativa
 
     p.mb-4(data-aos="fade-right") Las historias poseen una trama que se fundamenta en tres momentos establecidos: 
@@ -139,7 +140,7 @@
             .row.pt-lg-4
               .col-lg-8.mb-4.mb-lg-0
                 .pe-4
-                  h4 Nudo
+                  h4 Desenlace
                   p.mt-4 Momento en el que se resuelve el conflicto y la narración llega a su fin. El final puede ser cerrado, donde la acción concluye, o abierto, permitiendo la continuación de la historia o su conexión con otras tramas.
               .col-lg-4
                 img(src='@/assets/curso/tema1/13.png', style="max-width: 416px").mx-auto
@@ -149,7 +150,7 @@
 
     .bg-full-width.bg-fondo-3.mb-5
       .px-4.px-md-5
-        .titulo-segundo.color-acento-contenido.mb-4(data-aos="flip-up")
+        .titulo-segundo.color-acento-contenido.mb-4(data-aos="flip-up")#t_1_4
           h2 1.4 Personajes
 
         p.mb-4(data-aos="fade-right") Los personajes son los seres, personas o entidades que participan en una historia, ya sea en roles principales, secundarios o incidentales. A través de sus acciones, diálogos y relaciones, dan vida a la trama y permiten el desarrollo de los acontecimientos dentro de la narrativa. 
@@ -180,7 +181,7 @@
                 figure
                   img(src="@/assets/curso/tema1/16.png", alt="alt")
               .crd_hover_txt--body
-                h4.mb-3.text-center Incidentar
+                h4.mb-3.text-center Incidental
                 p.mb-0 Son personajes que aparecen en la historia con un propósito específico y, generalmente, tienen una participación limitada.
 </template>
 

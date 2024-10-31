@@ -20,7 +20,7 @@ export default {
       tema: 'Maquetación y narrativa en historietas gráficas',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Reconocer el diseño y maquetación de historietas gráficas, como el lenguaje audiovisual, la estructura narrativa y el análisis del mercado',
+        '<b> Objetivo:</b> Reconocer el diseño y maquetación de historietas gráficas, como el lenguaje audiovisual, la estructura narrativa y el análisis del mercado.',
       barajarPreguntas: true,
       preguntas: [
         {
