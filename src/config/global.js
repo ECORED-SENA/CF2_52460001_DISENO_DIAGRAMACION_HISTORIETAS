@@ -127,14 +127,6 @@ export default {
       link: 'https://www.youtube.com/watch?v=nmNG-5K8RMs',
     },
     {
-      tema: 'Escena',
-      referencia:
-        'Rodríguez Mercado, R. (2017). Diseño del cuento-taller: la historieta como medio de difusión de investigaciones universitarias. (s.d.). Editorial Digital UNID.',
-      tipo: 'Capítulo 2',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/41167',
-    },
-    {
       tema: 'Secuencia',
       referencia:
         'EchandoTrazos. (2022). Mejora las viñetas y el Storytelling en tu cómic o manga. [Archivo de vídeo]. YouTube.',
@@ -147,14 +139,6 @@ export default {
         'Dani Parker. (2021). CÓMO CONTAR UNA HISTORIA EN CÓMIC - DANI PARKER. [Archivo de vídeo]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=0VeEI0DqVPo',
-    },
-    {
-      tema: 'Personajes',
-      referencia:
-        'Acevedo, J. (2021). Para hacer historietas. (8 ed.). IEP Ediciones.',
-      tipo: 'Capítulo 2',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/195687',
     },
   ],
   glosario: [
@@ -265,6 +249,11 @@ export default {
           cargo: 'Experto temático',
           centro:
             'Centro de Diseño e Innovación Tecnológica Industrial - Regional Risaralda',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Evaluadora instrucional',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
